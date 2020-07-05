@@ -1,0 +1,44 @@
+@import "../elements/variables";
+
+body {
+  background-image: url(../../img/rojo.jpg);
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#title-container {
+  background-color: $color-red;
+}
+
+#menu {
+  a {
+    &:hover {
+      background-color: $color-red;
+    }
+  }
+}
+
+.slider {
+  border: 5px solid $color-red;
+}
+
+.glider-dot.active {
+  background-color: $color-red;
+}
+
+.read-more {
+  background-color: $color-red;
+
+  &:hover {
+    background-color: $color-red-hover;
+  }
+}
+
+footer {
+  a {
+    &:hover {
+      background-color: $color-red;
+    }
+  }
+}

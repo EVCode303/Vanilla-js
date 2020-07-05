@@ -1,0 +1,44 @@
+@import "../elements/variables";
+
+body {
+  background-image: url(../../img/hojas.jpg);
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#title-container {
+  background-color: $color-green;
+}
+
+#menu {
+  a {
+    &:hover {
+      background-color: $color-green;
+    }
+  }
+}
+
+.slider {
+  border: 5px solid $color-green;
+}
+
+.glider-dot.active {
+  background-color: $color-green;
+}
+
+.read-more {
+  background-color: $color-green;
+
+  &:hover {
+    background-color: $color-green-hover;
+  }
+}
+
+footer {
+  a {
+    &:hover {
+      background-color: $color-green;
+    }
+  }
+}

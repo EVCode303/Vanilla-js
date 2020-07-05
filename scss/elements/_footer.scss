@@ -1,0 +1,21 @@
+footer{
+    width: 70%;
+    margin: 1em auto;
+    background-color: $color-footer;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    
+    p, a{
+        color: white;
+        text-decoration: none;
+        font-family: Helvetica, Arial;
+    }
+
+    a{
+        padding: 0.5em;
+        transition: all 0.2s;
+    }
+}

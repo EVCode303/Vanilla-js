@@ -1,0 +1,44 @@
+@import "../elements/variables";
+
+body {
+  background-image: url(../../img/cielo.jpg);
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#title-container {
+  background-color: $color-blue;
+}
+
+#menu {
+  a {
+    &:hover {
+      background-color: $color-blue;
+    }
+  }
+}
+
+.slider {
+  border: 5px solid $color-blue;
+}
+
+.glider-dot.active {
+  background-color: $color-blue;
+}
+
+.read-more {
+  background-color: $color-blue;
+
+  &:hover {
+    background-color: $color-blue-hover;
+  }
+}
+
+footer {
+  a {
+    &:hover {
+      background-color: $color-blue;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+header{
+    width: 100%;
+    height: auto;
+    grid-column: 1/-1;
+}
+
+#title-container{
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.56em;
+    text-align: center;
+    width: 18em;
+    height: auto;
+    padding: 0.8em;
+    display: flex;
+    flex-wrap: wrap;
+
+    h1{
+        letter-spacing: 4px;
+    }
+}

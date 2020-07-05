@@ -1,0 +1,150 @@
+#articles-section,
+#about-section,
+#clock-container,
+#contact-section{
+    width: 100%;
+    grid-column: 1/4;
+}
+
+/* ARTICLES STYLES */ 
+
+.art{
+    width: 100%;
+    height: auto;
+    margin: 2em 0;
+}
+
+.art:nth-of-type(1){
+    margin-top: 0;
+}
+
+.art-title{
+    font-size: 30px;
+    color: #333;
+    margin-bottom: 0.3em;
+}
+
+.art-date{
+    display: inline-block;
+    color: gray;
+    margin-bottom: 1em;
+}
+
+.art-info{
+    text-align: justify;
+    padding-right: 2em;
+    line-height: 1.3em;
+    margin-bottom: 1.4em;
+}
+
+.read-more{
+    color: white;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+    padding: 1em;
+    transition: all 0.3s;
+}
+
+/* ABOUT STYLES */
+
+.about-title,
+#contact-title{
+    margin: 1em 0;
+    font-size: 30px;
+    color: #333;
+}
+
+#btns-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+
+    button{
+        width: auto;
+        padding: 0.5rem;
+        cursor: pointer;
+        outline: none;
+        border: none;
+        background-color: transparent;
+        color: #333;
+        font-size: 1em;
+        transition: all 0.3s;
+    }
+
+    button.btn-active{
+        font-weight: 700;
+        border-bottom: 4px solid $color-green;
+    }
+
+    button.btn-active:hover{
+        color: white;
+        background-color: $color-green;
+    }
+}
+
+#tabs-container{
+    margin: 1em 0;
+}
+
+.tab{
+    display: none;
+    p{
+        padding: 1em;
+        text-align: justify;
+        line-height: 1.5em;
+    }
+}
+
+.tab.active{
+    display: block;
+}
+
+/* CLOCK STYLES */ 
+
+.time{
+    display: inline-block;
+    width: 50%;
+    min-height: 50px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 4px #333;
+    margin: 2rem auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5em;
+}
+
+/* CONTACT STYLES */
+
+#contact-form label{
+    display: block;
+    width: 100%;
+    font-size: 1.1em;
+    margin: 0.2em 0;
+}
+
+#name, 
+#last_name,
+#email,
+#sex,
+#date,
+#age{
+    display: block;
+    width: 40%;
+    padding: 0.3125em;
+    font-family: Helvetica, Arial;
+    border: none;
+    box-shadow: 0px 0px 1px #333;
+}
+
+#contact-form input[type="submit"]{
+    padding: 0.625em;
+    margin: 1em 0;
+    cursor: pointer;
+}
